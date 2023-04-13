@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginHeader from './components/LoginHeader';
+import LoginClass from './components/LoginClass';
+import Login from './components/Login';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +21,11 @@ function App() {
         >
           Learn React
         </a>
+        <LoginHeader/>
+        <LoginClass/>
+        <Login/>
+        <Footer/>
+        
       </header>
     </div>
   );
